@@ -364,7 +364,7 @@ public interface ProductFeignClient {
 
 ![Sentinel架构原理](/ATT/img/Sentinel架构原理.svg)
 
-定义规则：
+定义资源：
 
 - 主流框架自动适配（Web Servlet、Dubbo、Spring Cloud、gRPC、Spring WebFlux、Reactor），所有 Web 接口均为资源 
 
@@ -372,7 +372,7 @@ public interface ProductFeignClient {
 
 - 声明式：`@SentinelResource`
 
-定义资源：
+定义规则：
 
 - 流量控制（FlowRule）
 
